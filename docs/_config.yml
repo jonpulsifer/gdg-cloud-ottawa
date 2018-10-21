@@ -39,7 +39,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "GDG Cloud Ottawa"
-heroSubtitle: "Google Deleveloper Community in Ottawa, Canada focusing on <typeout>"
+heroSubtitle: "Google Deleveloper Community in Ottawa, Canada focusing on ☁️"
 heroButtons:
  - {link: "#", text: "Become a speaker"}
  - {link: "https://www.meetup.com/GDG-Cloud-Ottawa/", text: "Meetup.com Page"}
