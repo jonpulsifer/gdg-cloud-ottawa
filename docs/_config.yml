@@ -1,0 +1,74 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+# Site Settings
+title: "GDG Cloud Ottawa"
+email: "gdg-cloud-ottawa@googlegroups.com"
+description: "GDG Cloud Ottawa is a Google Developer Group located in Ottawa, Canada"
+baseurl: ""
+url: "https://gdg.cloudottawa.ca"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: ""
+siteVerification: ""
+
+# Head
+metaKeywords: "meetup, gdg, devfest, google, google cloud, gcp, google cloud platform, programming, developers, ottawa, canada"
+twitterAccount: "@jonpulsifer"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {link: "https://www.meetup.com/GDG-Cloud-Ottawa/", text: "Meetup"}
+bottomNavigationLinks:
+ - {link: "#", text: "Become a speaker"}
+ - {link: "https://www.meetup.com/GDG-Cloud-Ottawa/", text: "Meetup.com Page"}
+rightNavigationButtons:
+ - {link: "#", text: "Become a speaker"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "GDG Cloud Ottawa"
+heroSubtitle: "Google Deleveloper Community in Ottawa, Canada focusing on <typeout>"
+heroButtons:
+ - {link: "#", text: "Become a speaker"}
+ - {link: "https://www.meetup.com/GDG-Cloud-Ottawa/", text: "Meetup.com Page"}
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "cloudottawa"
+twitterFeed: "#"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: ""
+subscribeInfo: ""
+
+# Footer
+socialLinks:
+ - {link: "#", icon: "google-plus"}
+ - {link: "#", icon: "twitter"}
+ - {link: "#", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://www.meetup.com/GDG-Cloud-Ottawa/", text: "Meetup Page"}
+   - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:gdg-cloud-ottawa@googlegroups.com", text: "gdg-cloud-ottawa@googlegroups.com"}
